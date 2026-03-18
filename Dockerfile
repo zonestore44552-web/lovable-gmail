@@ -12,7 +12,6 @@ RUN npm install --production
 
 # Copia o restante dos arquivos do projeto
 COPY index.js ./
-COPY token.json ./
 
 # Expõe a porta que o Cloud Run vai usar
 EXPOSE 8080
