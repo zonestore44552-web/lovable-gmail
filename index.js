@@ -7,7 +7,7 @@ const SCOPES = ['https://www.googleapis.com/auth/gmail.readonly'];
 const TOKEN_PATH = 'token.json'; // Token será salvo aqui após autenticação
 
 // Carrega credenciais do JSON que você baixou
-const CREDENTIALS_PATH = 'client_secret_56098923577-012r6urkodsponnaar778nmsj4ioca5d.apps.googleusercontent.com.json';
+const CREDENTIALS_PATH = '/client_secret_56098923577-012r6urkodsponnaar778nmsj4ioca5d.apps.googleusercontent.com.json/client-secret-gmail';
 const credentials = JSON.parse(fs.readFileSync(CREDENTIALS_PATH));
 
 const { client_secret, client_id, redirect_uris } = credentials.installed || credentials.web;
