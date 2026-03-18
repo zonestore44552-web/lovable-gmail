@@ -11,7 +11,8 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "googleapis": "^171.4.0",
-    "mailparser": "^3.9.4"
-  }
+  "googleapis": "^171.4.0",
+  "mailparser": "^3.9.4",
+  "express": "^4.18.2"
+}
 }
